@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "1NTMcLXioSyDBY92XhFCpUQ5xOBZOrdkDhjMDN7FNMKYNliSN58a5soLKzxBINWGf22dIFAyBah9qwRwilYNgw==",
+  "success": true,
+  "projectFilePath": "C:\\GFT\\BankTransaction.API\\BankTransaction.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\swashbuckle.aspnetcore\\5.3.3\\swashbuckle.aspnetcore.5.3.3.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.3\\swashbuckle.aspnetcore.swagger.5.3.3.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.3.3\\swashbuckle.aspnetcore.swaggergen.5.3.3.nupkg.sha512",
+    "C:\\Users\\MARCOS-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.3.3\\swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
