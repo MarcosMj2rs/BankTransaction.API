@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using System;
 
 namespace BankTransaction.API
 {
@@ -24,11 +26,26 @@ namespace BankTransaction.API
 
 			services.AddScoped<ICategoryService, CategoryService>();
 
+			// Register the Swagger generator, defining 1 or more Swagger documents
 			services.AddSwaggerGen(c =>
 			{
-				services.AddSwaggerGen(c =>
+				c.SwaggerDoc("v1", new OpenApiInfo
 				{
-					c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "API - GFT", Version = "V1" });
+					Version = "v1",
+					Title = "ToDo API",
+					Description = "Teste GFT Marcos J. Jesus ASP.NET Core Web API",
+					//TermsOfService = new Uri("https://example.com/terms"),
+					Contact = new OpenApiContact
+					{
+						Name = "Marcos J. Jesus",
+						Email ="marcos.mj2rs@gmail.com",
+						Url = new Uri("https://linkedin.com/in/marcosj"),
+					}//,
+					//License = new OpenApiLicense
+					//{
+					//	Name = "Use under LICX",
+					//	Url = new Uri("https://example.com/license"),
+					//}
 				});
 			});
 		}
@@ -40,11 +57,15 @@ namespace BankTransaction.API
 				app.UseDeveloperExceptionPage();
 			}
 
+			// Enable middleware to serve generated Swagger as a JSON endpoint.
 			app.UseSwagger();
 
+			// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+			// specifying the Swagger JSON endpoint.
 			app.UseSwaggerUI(c =>
 			{
-				c.SwaggerEndpoint("/swagger/v1/swagger.json", "API - GFT");
+				c.SwaggerEndpoint("/swagger/v1/swagger.json", "API - Teste GFT - V.01");
+				c.RoutePrefix = string.Empty;
 			});
 
 			app.UseHttpsRedirection();

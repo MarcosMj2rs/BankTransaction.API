@@ -1,0 +1,4 @@
+C:\GFT\BankTransaction.API\obj\Debug\netcoreapp2.1\BankTransaction.API.csprojAssemblyReference.cache
+C:\GFT\BankTransaction.API\obj\Debug\netcoreapp2.1\BankTransaction.API.csproj.CoreCompileInputs.cache
+C:\GFT\BankTransaction.API\obj\Debug\netcoreapp2.1\BankTransaction.API.AssemblyInfoInputs.cache
+C:\GFT\BankTransaction.API\obj\Debug\netcoreapp2.1\BankTransaction.API.AssemblyInfo.cs

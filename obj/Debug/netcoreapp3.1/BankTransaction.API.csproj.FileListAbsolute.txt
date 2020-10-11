@@ -25,4 +25,3 @@ C:\GFT\BankTransaction.API\obj\Debug\netcoreapp3.1\BankTransaction.API.dll
 C:\GFT\BankTransaction.API\obj\Debug\netcoreapp3.1\BankTransaction.API.pdb
 C:\GFT\BankTransaction.API\obj\Debug\netcoreapp3.1\BankTransaction.API.genruntimeconfig.cache
 C:\GFT\BankTransaction.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\GFT\BankTransaction.API\obj\Debug\netcoreapp3.1\BankTransaction.API.csprojAssemblyReference.cache
